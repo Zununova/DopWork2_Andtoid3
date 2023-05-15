@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/characterAPIFragment">
+
+    <fragment
+        android:id="@+id/characterAPIFragment"
+        android:name="com.example.homework2_andtoid3.ui.fragments.CharacterAPIFragment"
+        android:label="fragment_character_a_p_i"
+        tools:layout="@layout/fragment_character_a_p_i" />
+</navigation>
