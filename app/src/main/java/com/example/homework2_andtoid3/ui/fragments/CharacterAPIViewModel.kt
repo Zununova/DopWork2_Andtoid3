@@ -3,12 +3,10 @@ package com.example.homework2_andtoid3.ui.fragments
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.homework2_andtoid3.App
-import com.example.homework2_andtoid3.data.remote.apiservices.CharacterAPI
 import com.example.homework2_andtoid3.models.CharacterModel
 import com.example.homework2_andtoid3.models.RickAndMortyResponse
 import retrofit2.Call
 import retrofit2.Response
-import javax.security.auth.callback.Callback
 
 class CharacterAPIViewModel : ViewModel() {
 

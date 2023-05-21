@@ -12,6 +12,6 @@ class RetrofitClient {
         .build()
 
     fun provideCharacterAPIService(): CharacterAPI {
-        return retrofitClient.create(CharacterAPI :: class.java)
+        return retrofitClient.create(CharacterAPI::class.java)
     }
 }

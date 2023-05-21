@@ -2,7 +2,6 @@ package com.example.homework2_andtoid3.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.homework2_andtoid3.R
 import com.example.homework2_andtoid3.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

@@ -1,5 +1,6 @@
 package com.example.homework2_andtoid3.ui.fragments
 
+import com.example.homework2_andtoid3.ui.adapters.CharacterAPIAdapter
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,7 +9,6 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.homework2_andtoid3.databinding.FragmentCharacterAPIBinding
-import com.example.homework2_andtoid3.ui.adapters.CharacterAPIAdapter
 
 class CharacterAPIFragment : Fragment() {
 

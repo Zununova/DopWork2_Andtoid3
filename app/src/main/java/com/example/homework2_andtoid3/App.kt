@@ -4,9 +4,9 @@ import android.app.Application
 import com.example.homework2_andtoid3.data.remote.RetrofitClient
 import com.example.homework2_andtoid3.data.remote.apiservices.CharacterAPI
 
-class App: Application() {
+class App : Application() {
 
-    companion object{
+    companion object {
         var characterAPI: CharacterAPI? = null
     }
 
